@@ -27,4 +27,6 @@ else:
     print("Esta línea se va a ejecutar cuando termina de recorrer los datos...")
     print("fin del bloque del else....")
 
+    print("sigo escribiendo después del else....")
+
 print("fin del script....")
