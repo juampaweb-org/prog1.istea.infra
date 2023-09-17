@@ -24,11 +24,14 @@ Luego debemos utilizar los métodos de listas para invertir. método sort()
 Y comparar si la lista invertida es igual a la lista original.
 
 Ejemplo:
-palabra = "amor"
+palabra = "radar"
 lista_palabra = []
 for i in palabra:
     lista_palabra.append(i)
 
 Luego ordenamos la lista, y vamos a comparar si la lista invertida es igual a la lista original.
+
+ejemplo de palabras:
+https://es.wikipedia.org/wiki/Pal%C3%ADndromo#:~:text=Un%20pal%C3%ADndromo%20(del%20griego%20%CF%80%CE%AC%CE%BB%CE%B9%CE%BD,de%20letras%2C%20se%20llama%20capic%C3%BAa.
 
 """
