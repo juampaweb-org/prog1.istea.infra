@@ -8,6 +8,7 @@
 def sumar( a, b ):
     total = a + b
     return total
+    
 
 
 nro_uno = input("Ingrese un número: ")
