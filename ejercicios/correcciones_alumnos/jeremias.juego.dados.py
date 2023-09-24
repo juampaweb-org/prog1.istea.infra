@@ -19,18 +19,12 @@ Gana si supera los 30. Pierde si supera los -30.
 """
 import random
 
+# No hace falta hacer que devuelva las dos tiradas juntas
 def tirar_dado():
-    res1 = random.choice(dado1)
-    #res2 = random.choice(dado2)   no se como dividir el resultado en 2 cuando llamo la funcion 
-    return res1 #, res2 
-    
+    return random.choice([1, 2, 3, 4, 5, 6])
 
 
 puntos_total = 0
-#dado1 = [1, 1, 2, 1, 2, 2] dado de pruebas
-dado1 = [1, 2, 3, 4, 5, 6]
-#dado2 = [1, 2, 3, 4, 5, 6] no entiendo porq 2 dados ni como hacer q 1 funcion me traiga los 2 y usarlos por separado
-
 
 while puntos_total > -30 and puntos_total < 30:
     apuesta = input("que apuesta q sale ?:  ")
